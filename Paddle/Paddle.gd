@@ -47,6 +47,8 @@ func start_paddle():
 		position.y = -100
 		$Tween.interpolate_property(self, "position", position, target_pos, appear_duration, Tween.TRANS_ELASTIC, Tween.EASE_IN_OUT)
 		$Tween.start()
+	else:
+		pass
 
 
 
